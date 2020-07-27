@@ -1,0 +1,15 @@
+.currency-enter {
+    opacity: 0;
+}
+.currency-enter-active {
+    opacity: 1;
+}
+.currency-exit {
+    opacity: 1;
+}
+.currency-exit-active {
+    opacity: 0;
+}
+.currency-enter-active, .details-exit-active {
+    transition: opacity 500ms;
+}
