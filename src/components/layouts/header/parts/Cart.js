@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
-import style from '../Header.module.scss'
+import style from '../index.module.scss'
 import './Cart.scss'
 import { IconContext } from 'react-icons/lib'
 import { RiShoppingCartLine } from 'react-icons/ri'

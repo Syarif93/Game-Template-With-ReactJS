@@ -1,0 +1,87 @@
+// List Categories Transition
+.listCategories-enter {
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+.listCategories-enter-active {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: all 300ms ease;
+}
+
+.listCategories-exit {
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.listCategories-exit-active {
+    transform: translateY(50%);
+    transition: all 300ms ease;
+}
+
+// listXConsole Transition
+.listXConsole-enter {
+    opacity: 0;
+    transform: translateX(50%);
+}
+
+.listXConsole-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease;
+}
+
+.listXConsole-exit {
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.listXConsole-exit-active {
+    transform: translateX(50%);
+    transition: all 300ms ease;
+}
+
+// listPsPlaying Transition
+.listPsPlaying-enter {
+    opacity: 0;
+    transform: translateX(50%);
+}
+
+.listPsPlaying-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease;
+}
+
+.listPsPlaying-exit {
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.listPsPlaying-exit-active {
+    transform: translateX(50%);
+    transition: all 300ms ease;
+}
+
+// listPc Transition
+.listPc-enter {
+    opacity: 0;
+    transform: translateX(50%);
+}
+
+.listPc-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease;
+}
+
+.listPc-exit {
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.listPc-exit-active {
+    transform: translateX(50%);
+    transition: all 300ms ease;
+}

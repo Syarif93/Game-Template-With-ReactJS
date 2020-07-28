@@ -1,9 +1,37 @@
 .header {
     background-color: #191919;
-    padding: 40px;
+    position: relative;
 
+    .headerWraper {
+        .stickyWrapper {
+            position: relative;
+
+            &.stikyHeader {
+                .stickyInner {
+                    margin: auto;
+                    max-width: 1200px;
+                    width: 1200px !important;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    z-index: 1;
+                }
+            }
+
+            .stikyHeader {
+                position: sticky;
+                top: 0;
+                z-index: 100;
+            }
+        }
+
+    }
+
+    
     .sectionTop {
         display: flex;
+        padding: 40px;
         justify-content: space-between;
 
         .rightSideWrapper {
@@ -192,21 +220,13 @@
             }
         }
     }
-}
 
-// ToggleCurrency Transition
-.toggleCurrency-enter {
-    position: absolute;
-    transform: translateX(-110%);
-}
-.toggleCurrency-enter-active {
-    transform: translateX(0%);
-    transition: all 300ms ease;
-}
-.toggleCurrency-exit {
-    position: absolute;
-}
-.toggleCurrency-exit-active {
-    transform: translateX(-110%);
-    transition: all 300ms ease;
+    .sectionBottom {
+        background-color: #f8303f;
+        
+        .navMenus {
+            display: flex;
+            font-size: 14px;
+        }
+    }
 }

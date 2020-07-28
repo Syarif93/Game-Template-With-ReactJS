@@ -1,0 +1,51 @@
+.secondMenu {
+    display: flex;
+    width: 100%;
+
+    .menuLists {
+        display: flex;
+        column-gap: 30px;
+        background-color: #191919;
+        padding: 23px 40px 23px 40px;
+        width: 100%;
+        border-bottom: 2px solid #f8303f;
+
+        .menuList {
+            a {
+                display: flex;
+                align-items: center;
+                transition: .3s;
+
+                &:hover {
+                    color: #00dee1;
+
+                    .arrowDown {
+                        color: #fff;
+                    }
+                }
+
+                strong {
+                    margin-right: 10px;
+                }
+
+                .arrowDown {
+                    color: #00dee1;
+                }
+            }
+        }
+    }
+
+    span {
+        padding: 23px 43px 23px 25px;
+        display: block;
+        background-color: #191919;
+        border-bottom: 2px solid #f8303f;
+
+        a {
+            &:hover {
+                color: #00dee1;
+                transition: .3s;
+            }
+        }
+    }
+}

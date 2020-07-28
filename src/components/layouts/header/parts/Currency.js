@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { CSSTransition } from 'react-transition-group'
-import style from '../Header.module.scss'
+import style from '../index.module.scss'
 import './Currency.scss'
 import { IconContext } from 'react-icons/lib'
 import { MdKeyboardArrowDown } from 'react-icons/md'
-import { DropDownMenu, DropDownItem } from '../../helpers/DropDownMenu'
+import { DropDownMenu, DropDownItem } from '../../../helpers/DropDownMenu'
 
 const Currency = () => {
     const [toggleCurrency, setToggleCurrency] = useState(false)
